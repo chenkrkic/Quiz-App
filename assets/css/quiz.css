@@ -1,0 +1,45 @@
+p {
+  color: blueviolet;
+}
+
+p.choice-text {
+  color: antiquewhite;
+}
+
+.question {
+  color: blueviolet;
+}
+.choice-container {
+  display: flex;
+  margin-bottom: 1rem;
+  width: 100%;
+  border-radius: 5px;
+  background-color: blueviolet;
+  font-size: 3rem;
+  min-width: 60rem;
+}
+
+.choice-container:hover {
+  cursor: pointer;
+  background-color: rgb(76, 29, 121);
+}
+
+.choice-prefix {
+  padding: 2rem 2.5rem;
+  color: antiquewhite;
+}
+
+.choice-text {
+  padding: 2rem;
+  width: 100%;
+}
+
+.correct {
+  background-color: ;
+}
+
+@media screen and (max-width: 900px) {
+  .choice-container {
+    min-width: 40rem;
+  }
+}
