@@ -50,7 +50,7 @@ timer.addEventListener("click", function () {
                 allDone();
                 currentTime.textContent = "Time's up!";
             }
-        }, 1000);
+        }, 1000  );
     }
     render(questionIndex);
 });
