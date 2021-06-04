@@ -8,12 +8,16 @@
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
+    <a href="highscore.html">View Score Rank</a>
     <div class="container">
-         <div id="home" class="flex-column flex-center">
+        <div id="currentTime"></div>
+         <div id="quizDiv" class="flex-column flex-center">
              <h1> Welcome to Quiz-App</h1>
-             <a href="/quiz.html" class="btn">Start</a>
-             <a href="/highscore.html" class="btn" id="highscore-btn">High Score</a>
+             <button id="startTime" class="btn" type="click">Start</button>
+             <p>Try to answer all the questions within the time limit. Carefully review the question & answer, incorrect answers will penalize your available time.</p> 
+             <ul id="choiceUl"></ul>
          </div>
     </div>
+    <script src="./assets/js/quiz.js"></script>
 </body>
 </html>

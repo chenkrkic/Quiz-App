@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>High-Score</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="highScore" class="flex-cetner flex-column">
+           <h1 id="finalScore"></h1>
+           <ul id="highscore"></ul>
+           <form class="final-container">
+               <h2 id="final-text">Enter your name to save your score!</h2>
+               <input type="text" name="name" id="username" placeholder="Enter your name">
+               <button class="btn" id="saveScoreBtn" type="submit" onclick="saveHighScore(event)">Save</button>
+           </form> 
+           <button class="btn" id="goBack">Back to Home Page</button>
+           <button class="btn" id="clear" value="reset">Clear Quiz Score</button>
+        </div>
+    </div>
+    <script src="./assets/js/highscore.js"></script>
+</body>
+</html>

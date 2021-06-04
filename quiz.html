@@ -10,20 +10,9 @@
 <body>
     <div class="container">
         <div id="quiz" class="justify-center flex-conlumn">
-            <div id="hud">
-                <div class="hud-item">
-                    <p id="inputAns" class="hud-prefix">Question</p>
-                    <div id="inputBar">
-                       <div id="inputBarFull"></div>
-                    </div>
-                </div>
-                <div class="hud-item">
-                     <p class="hud-prefix">Score</p>
-                     <h1 class="hud-main-text" id="score"></h1>
-                </div>
-            </div>   
+            <div id="currentTime"></div>
         </div>
-        <div class="question" id="question">What is the correct answer?</div>
+        <h1 id="question">What is the correct answer?</h1>
         <div class="choice-container">
             <p class="choice-prefix">A</p>
             <p class="choice-text" data-number="1">choice</p>
@@ -41,6 +30,6 @@
             <p class="choice-text" data-number="4">choice</p>
         </div>
     </div>
-    <script src="./assets/js/script.js"></script>
+    <script src="quiz.js"></script>
 </body>
 </html>
