@@ -1,5 +1,5 @@
 :root {
-  background-color: aliceblue;
+  background-color: antiquewhite;
 }
 
 * {
@@ -42,32 +42,13 @@ a {
   padding: 2rem;
 }
 
-choice.container {
+question {
   position: absolute;
   left: 30%;
   top: 20%;
   width: 500px;
   height: 500px;
   border: 1px solid blueviolet;
-}
-
-#quizDiv {
-  margin: 20px;
-}
-
-#cerrentTime {
-  float: left;
-}
-
-#saveScoreBtn {
-  font-size: 2.5rem;
-  padding: 2rem 0;
-  width: 30rem;
-  text-align: center;
-  margin-bottom: 1rem;
-  color: antiquewhite;
-  background: blueviolet;
-  border-radius: 4px;
 }
 
 .flex-column {
@@ -109,15 +90,66 @@ choice.container {
 }
 
 input {
-  margin-bottom: 1rem;
-  width: 20rem;
-  padding: 1.5rem;
-  font-size: 1.5rem;
-  border: none;
+  margin-bottom: 20px;
+  width: 80%;
+  border: 1px solid rgb(192, 151, 230);
 }
 
 input::placeholder {
   color: cadetblue;
+}
+
+li {
+  background-color: blueviolet;
+  margin-top: 10px;
+  padding: 5px 15px;
+  width: 80%;
+  font-size: 1.5rem;
+  color: antiquewhite;
+}
+
+#container {
+  position: absolute;
+  left: 30%;
+  top: 20%;
+  width: 500px;
+  height: 500px;
+  border: 1px solid blueviolet;
+}
+
+#createDiv {
+  font-size: medium;
+  margin-top: 20px;
+  border-top: 1px solid rgb(187, 138, 233);
+}
+
+#createLabel {
+  font-size: 1.8rem;
+}
+
+#quizDiv {
+  margin: 50px;
+  font-size: large;
+}
+
+#currentTime {
+  float: left;
+  font-size: medium;
+}
+
+#saveScoreBtn {
+  font-size: 2.5rem;
+  padding: 2rem 0;
+  width: 30rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  color: antiquewhite;
+  background: blueviolet;
+  border-radius: 4px;
+}
+
+#Submit {
+  font-size: 2rem;
 }
 
 #username {
@@ -130,4 +162,9 @@ input::placeholder {
   font-size: 2.5rem;
   color: blueviolet;
   text-align: center;
+}
+
+textarea {
+  width: 90%;
+  margin: 20px;
 }

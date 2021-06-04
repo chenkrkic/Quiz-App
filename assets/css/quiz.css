@@ -24,70 +24,35 @@ h1 {
   flex-direction: column;
 }
 
-.choice-container {
+.container {
+  width: 100vw;
+  height: 100vh;
   display: flex;
-  margin-bottom: 1rem;
-  width: 50rem;
-  border-radius: 5px;
-  background: blueviolet;
-  font-size: 2rem;
-  min-width: 80rem;
-}
-
-.choice-container:hover {
-  cursor: pointer;
-  background-color: rgb(76, 29, 121);
-}
-
-.choice-prefix {
-  padding: 2rem 2.5rem;
-  color: antiquewhite;
-}
-
-.choice-text {
+  justify-content: center;
+  align-items: center;
+  max-width: 80rem;
+  margin: 0 auto;
   padding: 2rem;
-  width: 100%;
 }
 
-.correct {
-  background-color: rgb(191, 223, 143);
-}
-
-.incorrect {
-  background-color: rgb(230, 109, 109);
-}
-
-#hud {
-  display: flex;
-  justify-content: space-between;
-}
-
-.hud-prefix {
+.btn {
+  font-size: 2.5rem;
+  padding: 2rem;
+  width: 30rem;
   text-align: center;
-  font-size: 2rem;
-}
-
-.hud-main-text {
-  text-align: center;
-}
-
-#progressBar {
-  width: 20rem;
-  height: 3rem;
-  border: solid blueviolet;
-  margin-top: 2rem;
-  border-radius: 50px;
-  overflow: hidden;
-}
-
-#inputBarFull {
-  height: 100%;
+  margin-bottom: 1rem;
   background: blueviolet;
-  width: 0;
 }
 
-@media screen and (max-width: 700px) {
-  .choice-container {
-    min-width: 20rem;
-  }
+.btn:hover {
+  cursor: pointer;
+}
+
+textarea {
+  width: 90%;
+  margin: 20px;
+}
+
+label {
+  margin-right: 10px;
 }
